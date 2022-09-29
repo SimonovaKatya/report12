@@ -1,0 +1,29 @@
+
+.add-delete {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoursArch {
+  display: inline-block;
+  float: left;
+}
+
+.hoursArch input {
+  margin-right: 50px;
+}
+
+.hoursArch input {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff !important;
+  outline: none;
+  width: 120px;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-size: 16px;
+}

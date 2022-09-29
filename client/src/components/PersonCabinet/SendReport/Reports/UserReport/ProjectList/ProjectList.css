@@ -1,0 +1,35 @@
+.delete button {
+  padding: 3px 3px;
+  margin: 10px;
+}
+
+.card {
+  margin-bottom: 10px;
+  background: white;
+}
+
+.card {
+  display: flex;
+}
+.cardDetails {
+  flex: 1;
+  padding: 0;
+}
+
+.number {
+  float: left;
+}
+
+.name {
+  float: left;
+  font-size: 14px;
+}
+
+.worktime {
+  color: red;
+  float: right;
+}
+
+.deleteButton{
+ float: right ;
+}

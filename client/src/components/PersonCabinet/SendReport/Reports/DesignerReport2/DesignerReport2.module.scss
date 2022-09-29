@@ -1,0 +1,11 @@
+.table {
+  display: grid;
+  background: grey;
+  grid-gap: 1px;
+  padding: 1px;
+  grid-template-columns: 3fr 1fr 1fr 11fr 1fr;
+
+  > * {
+    background: white;
+  }
+}

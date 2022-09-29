@@ -1,0 +1,34 @@
+.inside {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #d1d1d1;
+}
+
+.outside {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #fffa73;
+}
+
+.open {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #c5ff95;
+}
+
+.close {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #ff7a73;
+}
+
+.VP {
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: #89afff;
+}

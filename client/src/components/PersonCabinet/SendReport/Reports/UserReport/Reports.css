@@ -1,0 +1,57 @@
+.block1 {
+  padding: 0px;
+}
+
+.addProject {
+  float: right;
+
+}
+
+.hours {
+  text-align: right;
+  color: #64b5f6;
+  font-size: 20px;
+  margin: 0;
+}
+
+.sum {
+  text-align: right;
+  color: grey;
+  font-size: 14px;
+  margin: 0;
+}
+
+.report {
+  padding: 20px;
+  width: 100% !important;
+}
+
+.textLeft {
+  text-align: left;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.textRight {
+  text-align: right;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.inputForm{
+  padding: 140px;
+}
+
+.input__error {
+  color: red;
+  text-align: left;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  h3,
+  h6,
+  p.textLeft,
+  p.textRight {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1024 - 300)));
+  }
+}
